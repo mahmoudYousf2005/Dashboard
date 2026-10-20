@@ -14,7 +14,7 @@ const Sidenav = () => {
 
 
   return (
-    <div className={` w-64 h-[calc(100vh-2rem)] bg-gray-800 p-4 rounded-xl md:block md:z-0 34 fixed z-10 `}
+    <div className={` w-64 h-[calc(100vh-2rem)] bg-gray-800 p-4 rounded-xl md:block md:z-0 34 fixed z-10 p-3`}
     >
 
       <div className=" mb-6 py-4 border-b border-transparent 
