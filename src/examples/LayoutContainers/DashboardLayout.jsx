@@ -8,9 +8,9 @@ const DashboardLayout = () => {
     const [open , setOpen] = useState(false)
   return (
     <div className="min-h-screen bg-gray-100">
-        <Sidenav open={open} setOpen={setOpen} />
+        <Sidenav open={open} setOpen={setOpen}/>
          <div className="md:pl-72 px-4 pt-6">
-        <Navbar setOpen={setOpen} />
+        <Navbar open={open} setOpen={setOpen}/>
         <Outlet />
         <Footer />
         

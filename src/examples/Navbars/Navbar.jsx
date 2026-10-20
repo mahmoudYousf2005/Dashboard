@@ -3,8 +3,9 @@ import { FaUserCircle } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
 import { FaBell } from "react-icons/fa6";
 import { IoMdHome } from "react-icons/io";
-import { IoMenu } from "react-icons/io5";
-const Navbar = () => {
+import { IoMenu , IoClose} from "react-icons/io5";
+const Navbar = ({open ,setOpen}) => {
+
   return (
     <div className="p-4 flex flex-col md:flex-row md:justify-between">
 
@@ -31,7 +32,19 @@ const Navbar = () => {
             
             
             <button aria-label="Account"><FaUserCircle /></button>
-            <button aria-label="Open menu"><IoMenu /></button>
+
+            {open ? 
+                <button aria-label="Open menu"
+                className="md:hidden"
+                onClick={()=> setOpen(false)}
+                ><IoClose /></button>
+                :
+                <button aria-label="Open menu"
+                className="md:hidden"
+                onClick={()=> setOpen(true)}
+                ><IoMenu /></button>
+            }
+            
             <button aria-label="Theme"><FaSun /></button>
             <button aria-label="Notifications"><FaBell /></button>
         
