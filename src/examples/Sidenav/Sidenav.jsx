@@ -1,15 +1,6 @@
-// import icons
-import {MdDashboard , MdTableView, MdReceipt, MdNotifications, MdPerson ,MdAssignment , MdLogin } from "react-icons/md";
+import routes from "../../routes";
 import {  NavLink } from "react-router-dom";
-const tabs = [
-    {id:1 , name:"dashboard" , path:"/" , icon: MdDashboard},
-    {id:2 , name:"tables" , path:"/tables" , icon: MdTableView},
-    {id:3 , name:"biling" , path:"/biling" , icon: MdReceipt},
-    {id:4 , name:"notifications" , path:"/notifications" , icon: MdNotifications,},
-    {id:5 , name:"profile" , path:"/profile" , icon: MdPerson},
-    {id:6 , name:"sign Up" , path:"/sign-Up", icon: MdLogin},
-    {id:7 , name:"sign In" , path:"/sign-In", icon: MdAssignment},
-  ]
+
 const Sidenav = () => {
 
 
@@ -24,9 +15,9 @@ const Sidenav = () => {
 
       </div>
 
-      {tabs.map((tab)=>{
+      {routes.map((tab)=>{
         return(
-          <NavLink key={tab.id} to={tab.path} className={({ isActive }) =>
+          <NavLink key={tab.path} to={tab.path} className={({ isActive }) =>
           `h-12 flex items-center gap-4 rounded-lg px-4 font-medium transition-all mt-4 uppercase
            ${isActive
             ? "bg-blue-500 text-white"
