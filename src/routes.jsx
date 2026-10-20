@@ -1,12 +1,12 @@
 
 import { MdDashboard, MdTableView, MdReceiptLong, MdNotifications, MdPerson, MdLogin, MdAssignment } from "react-icons/md";
-import Dashboard from "./layouts/dashboard/pageDashboard";
-import Tables from "./layouts/tables/pageTables";
-import Billing from "./layouts/billing/pageBillig";
-import Notifications from "./layouts/notifications/pageNotifications";
-import Profile from "./layouts/profile/pageProfile";
-import SignIn from "./layouts/authentication/sign-in/pageSignIn";
-import SignUp from "./layouts/authentication/sign-up/pageSignUp";
+import Dashboard from "./layout/dashboard/DashboardPage";
+import Tables from "./layout/tables/TablesPage";
+import Billing from "./layout/billing/BillingPage";
+import Notifications from "./layout/notifications/NotificationsPage";
+import Profile from "./layout/profile/ProfilePage";
+import SignIn from "./layout/authentication/sign-in/SignInPage";
+import SignUp from "./layout/authentication/sign-up/SignUpPage";
 
 
 const routes = [
