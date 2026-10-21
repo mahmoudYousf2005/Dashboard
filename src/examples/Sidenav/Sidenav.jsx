@@ -3,7 +3,6 @@ import {  NavLink } from "react-router-dom";
 
 const Sidenav = ({open , setOpen}) => {
 
-console.log(open)
   return (
     <aside className={`${open ? "block" : "hidden"} md:block
         fixed top-0 left-0 z-20 m-3 p-4

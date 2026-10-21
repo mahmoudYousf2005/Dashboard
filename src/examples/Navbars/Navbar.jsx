@@ -4,7 +4,12 @@ import { FaSun } from "react-icons/fa";
 import { FaBell } from "react-icons/fa6";
 import { IoMdHome } from "react-icons/io";
 import { IoMenu , IoClose} from "react-icons/io5";
+import { useLocation } from "react-router-dom"; 
+import routes from "../../routes";
 const Navbar = ({open ,setOpen}) => {
+
+    const {pathname} = useLocation()
+    const pageName = routes.find((r)=> r.path === pathname)?.name ?? "dashboard"
 
   return (
     <div className="p-4 flex flex-col md:flex-row md:justify-between">
@@ -16,7 +21,7 @@ const Navbar = ({open ,setOpen}) => {
             <h3 className="mx-1 ">/</h3>
             <h3>Dashboard</h3>
             </div>
-            <h2 className="font-bold text-gray-700 text-lg">Dashboard</h2>
+            <h2 className="font-bold text-gray-700 text-lg uppercase" >{pageName}</h2>
         </div>
 
         <div className="flex items-center gap-6 justify-between md:mt-0 mt-2">
@@ -24,8 +29,8 @@ const Navbar = ({open ,setOpen}) => {
         <div className="">
             <input
             className="bg-gray-100 px-1.5 py-2.5 border border-gray-300
-            font-medium text-gary-900 rounded-lg outline-none w-48"
-            type="text" placeholder="Search hero" />
+            font-medium text-gray-900 rounded-lg outline-none w-48"
+            type="text" placeholder="Search here" />
             </div>
 
             <div className="flex gap-4 text-gray-500 text-lg ">
