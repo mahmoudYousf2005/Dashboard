@@ -1,8 +1,8 @@
-
+import StatsCards from "./component/StatsCards"
 const DashboardPage = () => {
   return (
     <div>
-      
+      <StatsCards/>
     </div>
   )
 }
