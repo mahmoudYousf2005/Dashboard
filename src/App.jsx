@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
 
-      <Route element={<DashboardLayout/>}>
+      <Route element={<DashboardLayout/>}> 
 
       {dashboardRoutes.map(({path , component}) =>(
         <Route key={path} path={path} element={component}/>
