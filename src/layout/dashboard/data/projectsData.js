@@ -10,7 +10,7 @@ import team2 from "../../../assets/team-2.jpg"
 import team3 from "../../../assets/team-3.jpg"
 import team4 from "../../../assets/team-4.jpg"
 
-export const project = [
+export const projects = [
     {id:1 , name:"Material UI XD Version" , logo:logo1 , members:[team1 , team2 , team3 , team4] , budget:"$14,000" , progress:60 , color: "bg-blue-500"},
     {id:2 , name:"Add Progress Track" , logo:logo2 , members:[team2 , team4] , budget:"$3,000" , progress:20 , color: "bg-blue-500"},
     {id:3 , name:"Fix Platform Errors" , logo:logo3 , members:[team1 , team3 ] , budget:"$14,000" , progress:100 , color: "bg-green-500"},
