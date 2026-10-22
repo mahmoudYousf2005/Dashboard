@@ -1,8 +1,8 @@
-
+import AuthorsTable from "./components/AuthorsTable"
 const TablesPage = () => {
   return (
-    <div>
-      TablesPage
+    <div className="">
+      <AuthorsTable/>
     </div>
   )
 }
