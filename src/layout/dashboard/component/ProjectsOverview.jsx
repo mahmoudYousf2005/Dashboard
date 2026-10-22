@@ -3,7 +3,7 @@ import { CiMenuKebab } from "react-icons/ci";
 import { projects } from "../data/projectsData";
 
 const ProjectsOverview = () => (
-  <div className="p-4 bg-white rounded-xl mt-6">
+  <div className="p-4 bg-white rounded-xl ">
     <div className="flex items-center justify-between">
       <div>
         <h2 className="font-bold text-xl text-gray-600">Projects</h2>
