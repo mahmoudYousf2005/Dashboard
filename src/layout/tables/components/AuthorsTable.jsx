@@ -4,7 +4,7 @@ const AuthorsTable = () => {
     
   return (
     <div className="p-4 bg-white rounded-xl mt-10">
-      <div className="flex items-center px-6 h-20 text-white font-bold bg-blue-500 rounded-lg -mt-8">
+      <div className="flex items-center px-6 h-20 text-white font-bold bg-blue-500 rounded-lg -mt-8 shadow-lg">
         Authors Table
       </div>
       <div className="overflow-x-auto p-4">
