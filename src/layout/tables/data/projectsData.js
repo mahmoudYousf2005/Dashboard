@@ -1,9 +1,9 @@
-import logo1 from "../../../images/logo-1.svg";
-import logo2 from "../../../images/logo-2.svg";
-import logo3 from "../../../images/logo-3.svg";
-import logo4 from "../../../images/logo-4.svg";
-import logo5 from "../../../images/logo-5.svg";
-import logo6 from "../../../images/logo-6.svg";
+import logo1 from "../../../assets/logo-1.svg";
+import logo2 from "../../../assets/logo-2.svg";
+import logo3 from "../../../assets/logo-3.svg";
+import logo4 from "../../../assets/logo-4.svg";
+import logo5 from "../../../assets/logo-5.svg";
+import logo6 from "../../../assets/logo-6.svg";
 
 export const projects = [
   { id: 1, name: "Asana", logo: logo1, budget: "$2,500", status: "working", progress: 60 },
