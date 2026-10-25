@@ -1,8 +1,8 @@
-
+import CreditCard from "./components/CreditCard"
 const BillingPage = () => {
   return (
     <div>
-      BillingPage
+      <CreditCard />
     </div>
   )
 }
