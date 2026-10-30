@@ -2,6 +2,7 @@ import CreditCard from "./components/CreditCard"
 import IncomeCards from "./components/IncomeCards"
 import PaymentMethod from "./components/PaymentMethod"
 import Invoices from "./components/Invoices"
+import BillingInformation from "./components/BillingInformation"
 const BillingPage = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const BillingPage = () => {
         </div>
         <Invoices />
       </div>
-      
+      <BillingInformation />
     </div>
   )
 }
