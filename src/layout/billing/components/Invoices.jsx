@@ -2,7 +2,7 @@ import { FaFilePdf } from "react-icons/fa";
 import { invoices } from "../data/invoicesData";
 
 const Invoices = () => (
-  <div className="bg-white rounded-xl p-5 shadow-sm h-full">
+  <div className="bg-white rounded-xl p-5 shadow-sm h-full ">
     <div className="flex items-center justify-between mb-4">
       <h2 className="font-bold text-gray-700">Invoices</h2>
       <button className="border border-blue-500 text-blue-500 text-xs font-bold px-4 py-2 rounded-lg">

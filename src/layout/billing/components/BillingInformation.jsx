@@ -3,7 +3,7 @@ import { MdDelete, MdEdit } from "react-icons/md";
 import { billingInfo } from "../data/billingInfoData";
 const BillingInformation = () => {
   return (
-    <div className="bg-white rounded-xl p-5 shadow-sm">
+    <div className="bg-white rounded-xl p-5 shadow-sm md:mt-0 mt-4">
       <h2 className="font-bold text-gray-700 mb-4 capitalize">billing information</h2>
 
       <div className="flex flex-col gap-5">

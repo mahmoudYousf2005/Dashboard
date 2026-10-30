@@ -3,6 +3,7 @@ import IncomeCards from "./components/IncomeCards"
 import PaymentMethod from "./components/PaymentMethod"
 import Invoices from "./components/Invoices"
 import BillingInformation from "./components/BillingInformation"
+import Transactions from "./components/Transactions "
 const BillingPage = () => {
   return (
     <div>
@@ -16,7 +17,10 @@ const BillingPage = () => {
         </div>
         <Invoices />
       </div>
-      <BillingInformation />
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] mt-0 md:mt-4">
+        <BillingInformation />
+        <Transactions />
+      </div>
     </div>
   )
 }
