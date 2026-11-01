@@ -1,8 +1,9 @@
 
+import ProfileHeader from "./components/ProfileHeader"
 const ProfilePage = () => {
   return (
     <div>
-      ProfilePage
+      <ProfileHeader />
     </div>
   )
 }
