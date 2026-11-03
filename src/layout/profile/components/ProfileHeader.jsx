@@ -13,8 +13,7 @@ const ProfileHeader = () => {
 
   return (
     <div className="">
-    <div className="h-28 bg-blue-400 rounded-xl"/>
-    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between bg-white p-5 mx-5 -mt-6">
+    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between ">
       <div className="flex items-center gap-4">
         <img src={avatar} alt="Richard Davis" className="w-20 h-20 rounded-full object-cover shadow-md" />
         <div>
