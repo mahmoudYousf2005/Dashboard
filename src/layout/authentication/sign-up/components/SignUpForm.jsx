@@ -16,7 +16,7 @@ const SignUpForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(values); // هنا هتربط الـ API بعدين
+    console.log(values); 
   };
 
   return (

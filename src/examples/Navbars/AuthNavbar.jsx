@@ -9,7 +9,7 @@ const links = [
 ];
 
 const AuthNavbar = () => (
-  <nav className="mx-4 mt-4 px-5 py-3 rounded-xl bg-white/80 backdrop-blur flex items-center justify-between shadow-lg">
+  <nav className=" w-9/12 mx-auto mt-4 px-5 py-3 rounded-xl bg-white/80 backdrop-blur flex items-center justify-between shadow-lg">
     <Link to="/dashboard" className="font-bold text-gray-700">
       Material Dashboard
     </Link>
